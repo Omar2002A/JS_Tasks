@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <script src="t.js" defer></script>
+</head>
+<body>
+
+    <button id="bold">Bold</button>
+    <button id="underline">Underline</button>
+
+    <select id="font">
+        <option value="Arial">Arial</option>
+        <option value="Times New Roman">Times New Roman</option>
+        <option value="Courier New">Courier New</option>
+    </select>
+
+    <select id="size">
+        <option value="1">Small</option>
+        <option value="3" selected>Normal</option>
+        <option value="5">Large</option>
+        <option value="7">Extra Large</option>
+    </select>
+
+    <br><br>
+
+    <div id="editor" contenteditable="true"
+         style="border:1px solid black; min-height:150px; padding:10px;">
+        Type your text here...
+    </div>
+
+</body>
+</html>

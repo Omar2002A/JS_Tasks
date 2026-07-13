@@ -1,0 +1,17 @@
+#box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+    animation: move 2s infinite;
+}
+
+@keyframes move {
+    from {
+        opacity: 0.5;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
