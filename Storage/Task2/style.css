@@ -1,0 +1,24 @@
+#projectCards{
+    margin-top:30px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.project-card{
+    width:320px;
+    background:#fff;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+.project-card h2{
+    color:#4CAF50;
+    margin-bottom:10px;
+}
+
+.project-card p{
+    margin:8px 0;
+}

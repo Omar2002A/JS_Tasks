@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Project Information</h1>
+
+    <form id="projectForm">
+
+        <label>Subject</label>
+        <input type="text" id="subject" required>
+
+        <label>Description</label>
+        <textarea id="projectDescription" required></textarea>
+
+        <label>User Types</label>
+        <input type="text" id="userTypes" placeholder="Admin, User..." required>
+
+        <label>Technology Used</label>
+        <input type="text" id="technology" placeholder="HTML, CSS, JavaScript..." required>
+
+        <button type="submit">Submit Project</button>
+
+    </form>
+
+    <hr>
+
+    <div id="projectCards"></div>
+</body>
+</html>

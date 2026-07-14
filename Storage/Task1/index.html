@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Personal Information</h1>
+
+    <form id="userForm">
+
+        <label>Name</label>
+        <input type="text" id="name" required>
+
+        <label>Age</label>
+        <input type="number" id="age" required>
+
+        <label>Gender</label>
+
+        <div class="gender">
+            <input type="radio" name="gender" value="Male" required> Male
+            <input type="radio" name="gender" value="Female"> Female
+        </div>
+
+        <label>Brief Description</label>
+        <textarea id="description"></textarea>
+
+        <label>Major & University</label>
+        <input type="text" id="major" required>
+
+        <label>Preferred Programming Languages</label>
+
+        <div class="languages">
+            <input type="checkbox" value="JavaScript"> JavaScript
+            <input type="checkbox" value="C#"> C#
+            <input type="checkbox" value="Python"> Python
+            <input type="checkbox" value="Java"> Java
+            <input type="checkbox" value="C++"> C++
+        </div>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <hr>
+
+    <div id="cardsContainer"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
